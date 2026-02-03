@@ -19,6 +19,10 @@ ebook2.printInfo();
 ebook1.fileFormat = "EPUB";
 console.log("New File format:", ebook1.fileFormat);
 
+ebook1.fileFormat = "EPUB";
+console.log("New File format:", ebook1.fileFormat);
+
+
 const books = [book1, book2, book3, book4, ebook1, ebook2];
 const oldestBook = Book.getOldestBook(books);
 
