@@ -5,6 +5,10 @@ class Book {
     this.year = year;
   }
 
+<<<<<<< HEAD
+=======
+  // ===== getters =====
+>>>>>>> 266b233e998c643784dfc6c20009cf16ef9745cf
   get title() {
     return this._title;
   }
@@ -17,6 +21,10 @@ class Book {
     return this._year;
   }
 
+<<<<<<< HEAD
+=======
+  // ===== setters (валідація) =====
+>>>>>>> 266b233e998c643784dfc6c20009cf16ef9745cf
   set title(value) {
     if (typeof value !== "string" || value.trim() === "") {
       throw new Error("Title must be a string");
@@ -44,6 +52,10 @@ class Book {
     );
   }
 
+<<<<<<< HEAD
+=======
+  // ===== 4.2 статичний метод =====
+>>>>>>> 266b233e998c643784dfc6c20009cf16ef9745cf
   static getOldestBook(books) {
     return books.reduce((oldest, book) =>
       book.year < oldest.year ? book : oldest
