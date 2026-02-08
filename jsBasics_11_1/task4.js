@@ -25,7 +25,6 @@ class UserService {
 const todoService = new TodoService();
 const userService = new UserService();
 
-// Promise.all
 const allPromises = Promise.all([
   todoService.getTodo(),
   userService.getUser()
@@ -41,7 +40,6 @@ allPromises
     console.error(error);
   });
 
-// Promise.race
 const racePromises = Promise.race([
   todoService.getTodo(),
   userService.getUser()
