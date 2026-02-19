@@ -2,7 +2,7 @@ let myString = "Hello, world!";
 let myNumber = 42;
 let myBoolean = true;
 let myNull = null;
-let myUndefined;
+let myUndefined = undefined;
 
 console.log("String:", myString);
 console.log("Number:", myNumber);
