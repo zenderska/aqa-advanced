@@ -5,6 +5,14 @@
 
 /** @type {import('jest').Config} */
 const config = {
+  reporters: [
+    "default",
+   ["jest-html-reporters", {
+      "publicPath": "./html-report",
+      "filename": "report.html",
+      "openReport": true
+    }]
+  ],
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
